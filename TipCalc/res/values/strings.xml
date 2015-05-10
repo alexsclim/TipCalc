@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">TipCalc</string>
+
+    <!-- Main.xml Strings -->
+    
+    <string name="enter_cost">Cost of Meal:</string>
+    <string name="select_below">How was your service?(select below):</string>
+    <string name="button_10">No Bueno: 10%</string>
+    <string name="button_12">Average: 12%</string>
+    <string name="button_15">Decent: 15%</string>
+    <string name="button_20">Good: 20%</string>
+    <string name="button_30">10/10 Would Come Again: 30%</string>
+    <string name="welcome_string">Welcome to TipCalc!</string>
+    
+    <!-- Result.xml Strings -->
+    
+     <string name="tip_string">Your tip amount is  :</string>
+     <string name="total_string">The total cost including tips is	:</string>
+     <string name="back_string">Back</string>
+    
+    
+    
+    <!-- Error Strings -->
+    
+     <string name="error_et">Please enter the cost of your meal.</string>
+     
+    <!-- Color -->
+    <color name="lightblue">#99e9d8</color>
+    <color name="lightgrey">#CCFFCC</color>
+    
+    
+</resources>

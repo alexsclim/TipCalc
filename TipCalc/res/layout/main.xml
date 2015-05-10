@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/text_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/enter_cost"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome_string"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_prompt"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/text_prompt"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+        <Button
+            android:id="@+id/tip10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:text="@string/button_10" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_prompt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="@string/select_below"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/tip20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tip12"
+            android:layout_below="@+id/tip12"
+            android:layout_marginTop="14dp"
+            android:text="@string/button_15" />
+
+        <Button
+            android:id="@+id/tip12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tip10"
+            android:layout_below="@+id/tip10"
+            android:layout_marginTop="14dp"
+            android:text="@string/button_12" />
+
+        <Button
+            android:id="@+id/tip30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tip15"
+            android:layout_below="@+id/tip15"
+            android:layout_marginTop="14dp"
+            android:text="@string/button_30" />
+
+        <Button
+            android:id="@+id/tip15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tip20"
+            android:layout_below="@+id/tip20"
+            android:layout_marginTop="18dp"
+            android:text="@string/button_20" />
+
+</RelativeLayout>
